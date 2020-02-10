@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800i|Open+Sans:400,600,700&display=swap');
+
+
+/*  font-family: 'Montserrat', sans-serif;
+     font-family: 'Open Sans', sans-serif;*/
+ *{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+ } 
+ h1{
+     color: #36226f;
+     font-size: 30px;
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+
+ }  
+ p{
+     color: #bab5b3;
+     font-size: 15px;
+     font-family: 'Open Sans', sans-serif;
+ }   
+ .container{
+     width: 90%;
+     margin: auto;
+ }
+ header{
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center;
+  
+   
+
+ }
+ .logo{
+    width: 20%;
+    
+ }
+ .nav{
+    width: 60%;
+    ;
+ }
+ .nav ul li a:hover{
+     color: #fff;
+     background-color: #2471a3 ;
+     border-radius: 4px;
+ }
+ .nav ul{
+    display: flex;
+    justify-content: flex-end;
+ }
+ .nav ul li{
+    margin-left: 30px;
+    
+ }
+ .nav ul li a{
+    font-size: 18px;
+    color: #204f87;
+    font-weight: 600;
+ }
+ .banner{
+     background-image: url(../images/lawyer_pro.png);
+     height: 500px;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+ }
+ .contant{
+     width: 460px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }   
+ .contant h1{
+     color: #fff;
+     font-size: 50px;
+     font-weight: 700;
+
+ }
+ .icon{
+     position: absolute;
+     top: 80%;
+     left: 50%;
+     transform: translate(-80%,-50%);
+     animation: icon-ani 1s linear infinite ;
+     animation-direction: alternate;
+ }
+ .icon i{
+     color: #fff;
+     font-size: 24px;
+    
+ }
+ .who-we-are-contant{
+     margin-top: 70px;
+     width: 50%;
+     float: left;
+     position: relative;
+     
+   
+ }
+ .who-we-are-contant h1{
+     margin-top: 15px;
+ }
+ .who-we-are-contant::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 7px;
+    background-color: red;
+ }
+ .who-we-are-contant p{
+     margin: 20px 0;
+     padding-right: 100px;
+ }
+ .who-we-are-img{
+     width: 50%;
+     float: right;
+     margin-top: 50px;
+   
+    
+    
+     
+ }
+ .who-we-are-img img{
+     width: 50%;
+ }
+ @keyframes icon-ani{
+     0%{
+        transform: translate(-80%,-0%);
+     }
+     100%{
+        transform: translate(-80%,-100%);
+     }
+ }
+ .who-we-are{
+     overflow: hidden;
+ }
+ .what-we-do-part{
+    
+    background: #fbfbfb;
+    margin-top: 50px;
+    background-image: url(../images/lawer_bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+ }
+ .header{
+    padding: 50px 0;
+    width: 221px;
+    margin: auto;
+ }
+
+ .header h1{
+   margin-top: 10px;
+ }
+ .header::before{
+     content: "";
+     position: absolute;
+     width: 7%;
+     height: 5px;
+     background: red;
+     left: 50%;
+     transform: translate(-50%);
+
+ }
+ .what-we-do-contant{
+    display: flex;
+ }
+ .what-we {
+     opacity: 0;
+ }
+ .items{
+   padding: 10px;
+   position: relative;
+ }
+ .items:hover .what-we{
+     opacity: 1;
+     transform: translate(-50%,-50%);
+ }
+ .items img{
+  
+ }
+ .items i{
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%);
+  bottom: 20%;
+  color: #fff;
+  font-size: 30px;
+  transition: all .4s ease;
+  opacity: 0;
+ }
+ .items:hover i{
+    opacity: 1;
+    transform: translate(-50%);
+    left: 50%;
+ }   
+ .what-we{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-30%);
+     color: #fff;
+     text-transform: uppercase;
+     transition: all .4s ease;
+ }
+ .heading{
+    width: 216px;
+    line-height: 30px;
+ }
+ .img{
+     position: relative;
+     
+ }
+ .img::after{
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0;
+     transition: all .4s ease;
+
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#207cca+37,207cca+37,2989d8+42,2989d8+42,207cca+47,3a1973+100&1+0,0+1,1+100 */
+background: -moz-linear-gradient(top,  rgba(32,124,202,1) 0%, rgba(32,124,202,0) 1%, rgba(32,124,202,0.36) 37%, rgba(41,137,216,0.41) 42%, rgba(32,124,202,0.46) 47%, rgba(58,25,115,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,124,202,1) 0%,rgba(32,124,202,0) 1%,rgba(32,124,202,0.36) 37%,rgba(41,137,216,0.41) 42%,rgba(32,124,202,0.46) 47%,rgba(58,25,115,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,124,202,1) 0%,rgba(32,124,202,0) 1%,rgba(32,124,202,0.36) 37%,rgba(41,137,216,0.41) 42%,rgba(32,124,202,0.46) 47%,rgba(58,25,115,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#3a1973',GradientType=0 ); /* IE6-9 */
+
+
+ }
+ .items:hover .img::after{
+     opacity: 1;
+ }
+ .attorneys{
+     background-image: url(../images/lawyer-bg-two.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     overflow: hidden;
+ }
+ .attorneys-content{
+     position: relative;
+     margin-top: 200px;
+    
+    
+    
+ }
+ .attorneys-content h1{
+     color: #fff;
+     width: 100px;
+    padding-top: 30px;
+ }
+ .attorneys-content p{
+     width:30%;
+     margin-top: 20px;
+     margin-bottom: 30px;
+ }
+ .attorneys-content a{
+     color: red;
+     font-size: 20px;
+ }
+ .attorneys-content::before{
+    content: "";
+	position: absolute;
+	width: 60px;
+	height: 4px;
+	background: #f2622c;
+ }
+ .attorneys-one{
+   display: flex;
+   padding-left: 450px;
+   position: relative;
+   margin-top: -316px;
+  
+ }
+ .attorneys-one-img{
+   padding: 10px;
+   position: relative;
+ }
+ .img-one{
+     position: relative;
+ }
+ .img-one::after{
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+
+
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#207cca+37,207cca+37,2989d8+42,2989d8+42,207cca+47,3a1973+100&1+0,0+1,1+100 */
+background: -moz-linear-gradient(top,  rgba(32,124,202,1) 0%, rgba(32,124,202,0) 1%, rgba(32,124,202,0.36) 37%, rgba(41,137,216,0.41) 42%, rgba(32,124,202,0.46) 47%, rgba(58,25,115,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,124,202,1) 0%,rgba(32,124,202,0) 1%,rgba(32,124,202,0.36) 37%,rgba(41,137,216,0.41) 42%,rgba(32,124,202,0.46) 47%,rgba(58,25,115,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,124,202,1) 0%,rgba(32,124,202,0) 1%,rgba(32,124,202,0.36) 37%,rgba(41,137,216,0.41) 42%,rgba(32,124,202,0.46) 47%,rgba(58,25,115,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#3a1973',GradientType=0 ); /* IE6-9 */
+
+ }
+ .attorneys-one-img h2{
+   position: absolute;
+   bottom: 15%;
+   padding-left: 30px;
+   width: 20px;
+   text-transform: uppercase;
+   color: #fff;
+   opacity: 0;
+   transition: all .4s ease;
+ }
+ .attorneys-one-img h2:hover{
+     opacity: 1;
+    
+    
+ }
+ 
+ .attorneys-two{
+     display: flex;
+     padding-left: 450px;
+     position: relative;    
+ }
+ .attorneys-two-img{
+     padding: 10px;
+ }
+ .img-two{
+     position: relative;
+ }
+ .img-two::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#207cca+37,207cca+37,2989d8+42,2989d8+42,207cca+47,3a1973+100&1+0,0+1,1+100 */
+background: -moz-linear-gradient(top,  rgba(32,124,202,1) 0%, rgba(32,124,202,0) 1%, rgba(32,124,202,0.36) 37%, rgba(41,137,216,0.41) 42%, rgba(32,124,202,0.46) 47%, rgba(58,25,115,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,124,202,1) 0%,rgba(32,124,202,0) 1%,rgba(32,124,202,0.36) 37%,rgba(41,137,216,0.41) 42%,rgba(32,124,202,0.46) 47%,rgba(58,25,115,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,124,202,1) 0%,rgba(32,124,202,0) 1%,rgba(32,124,202,0.36) 37%,rgba(41,137,216,0.41) 42%,rgba(32,124,202,0.46) 47%,rgba(58,25,115,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#3a1973',GradientType=0 ); /* IE6-9 */
+
+ }
+ .attorneys-two-img h2{
+     position: absolute;
+     width: 30px;
+     bottom: 15%;
+     padding-left: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0;
+    transition: all .4s ease;
+ }
+ .attorneys-two-img h2:hover{
+     opacity: 1;
+ }
+ .language{
+     overflow: hidden;
+ }
+ .language-heading{
+    padding: 50px 0;
+    width: 250px;
+    margin: auto;
+    position: relative;
+    
+ }
+ .language-heading::before{
+     content: "";
+     position: absolute;
+     width: 26%;
+     height: 5px;
+     left: 50%;
+     transform: translate(-50%);
+     background: red;
+
+    
+ }
+ .language-heading h1{
+     padding-top: 20px;
+ }
+ .language-items{
+    width: 23%;
+    float: left;
+    padding: 12px;
+ }
+ .language-items p{
+     padding-right: 7px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .language-items a{
+     color: red;
+     text-transform: uppercase;
+   
+ }
+ .contact{
+     background: hsl(256, 53%, 28%);
+     margin-top: 50px;
+     width: 100%;
+     height: 350px;
+     
+ }
+ .contact-heading{
+    padding: 50px 0;
+    width: 250px;
+    margin: auto;
+    
+ }
+ 
+ 
+ .contact-heading h1{
+   color: #fff;
+ }
+form{
+    position: absolute;
+    left: 37%;
+    width: 300px;
+    
+}
+form input{
+    width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #4759a7;
+	margin-top: 10px;
+	padding: 10px 10px;
+}
+.contact-input input::placeholder{
+	color: white;
+}
+.contact-input button{
+    border:none;
+	background: #f2622c;
+	width: 21%;
+	padding: 10px 0;
+    margin-top: 20px;
+    position: absolute;
+    left: 40%;
+    
+}
+footer{
+    background: #16102b;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.footer-left{
+    width: 30%;
+    float: left;
+    padding-top: 50px;
+    
+}
+.footer-right{
+    width: 30%;
+    float: right;
+    padding-top: 50px;
+    
+}
+footer ul{
+
+}
+footer ul li{
+   float: left;
+}
+footer ul li a{
+   padding: 15px;
+   color: #fff;
+   
+   right: 0;
+}
